@@ -1,0 +1,110 @@
+.wrapper {
+    width: 1280px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.-block {
+    display: block;
+    width: 100%;
+}
+
+.-flex {
+    display: flex;
+}
+
+.-align-center {
+    align-items: center;
+}
+
+.-jc-sp {
+    justify-content: space-between;
+}
+
+.-w50 {
+    width: 50%;
+}
+
+.-mb15 {
+    margin-bottom: 15px;
+}
+
+.-mt10 {
+    margin-top: 10px;
+}
+
+.row + .row {
+    margin-top: 15px;
+}
+
+.list-item {
+    margin: 0;
+    list-style: none;
+}
+
+.list-item li {
+    height: 320px;
+}
+
+.list-item li img {
+    height: 200px;
+    overflow: hidden;
+}
+
+.item {
+    position: relative;
+}
+
+.item-label {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px 20px;
+    background: rgba(255,255,255, 0.9);
+    font-size: 20px;
+    font-weight: 700;
+    color: #dd580ce3;
+}
+
+.text {
+    padding: 10px 0;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.info-text.-big {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.-small {
+    font-weight: 400;
+}
+
+.-a50 {
+    opacity: .5;
+}
+
+.form-inline .form-group span {
+    display: inline-block;
+    vertical-align: middle;
+    width: 40px;
+    font-weight: 700;
+}
+
+.form-group .checkbox {
+    margin-top: 0;
+}
+
+.form-group label input {
+    font-weight: 400;
+}
+
+.header-row {
+    margin-bottom: 20px;
+}
+
+.header-row button + button {
+    margin-left: 15px;
+}
